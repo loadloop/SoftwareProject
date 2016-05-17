@@ -1,0 +1,63 @@
+
+/* NAVIGATION DRAWER MENU */
+
+.navigation-drawer {
+    -fx-background-color: #F2F2F2;
+}
+
+.navigation-drawer .image-view {
+    -fx-pref-height: 48;
+    -fx-opacity: 0.54;
+    -fx-translate-x: 16;
+    -fx-translate-y: 12;
+}
+
+.navigation-drawer .label {
+    -fx-text-fill: #00000;
+    -fx-font-size: 18;
+    -fx-opacity: 1;
+    -fx-pref-height: 48;
+    -fx-padding:  0 16 0 56;
+    -fx-font-weight:blod;
+}
+
+.navigation-drawer .item-selectable:hover {
+    -fx-background-color: #DADADA;
+}
+.clk{
+    -fx-background-color: #A1CAE3;
+
+}
+.clk:hover{
+    -fx-background-color: #7AB7DB;
+
+}
+/* TOOLBAR MENU */
+
+.menu-tools {
+    -fx-background-color: #FFF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.menu-tools .label {
+    -fx-text-fill: #000;
+    -fx-font-size: 14;
+    -fx-opacity: 0.87;
+    -fx-pref-height: 48;
+    -fx-padding: 0 16 0 16;
+}
+
+.menu-tools .item-selectable:hover {
+    -fx-background-color: -fx-color-50;
+}
+
+/* CONTROLS */
+.label {
+    -fx-font-size: 13;
+    -fx-padding: 0 8 0 0;
+}
+
+.text-field {
+    -fx-font-size: 13;
+    -fx-padding: 4 4 4 4;    
+}

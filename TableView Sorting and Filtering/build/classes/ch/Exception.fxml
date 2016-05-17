@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.ExceptionController">
+   <children>
+      <Label layoutX="153.0" layoutY="33.0" text="Course Number" />
+      <Label layoutX="167.0" layoutY="87.0" text="Exam Date" />
+      <Label layoutX="175.0" layoutY="138.0" text="Session" />
+      <ComboBox fx:id="session" layoutX="301.0" layoutY="134.0" prefHeight="25.0" prefWidth="92.0" />
+      <DatePicker fx:id="examDate" layoutX="273.0" layoutY="83.0" />
+      <TextField fx:id="courseNo" layoutX="272.0" layoutY="29.0" prefHeight="25.0" prefWidth="149.0" />
+      <TableView layoutX="20.0" layoutY="203.0" prefHeight="284.0" prefWidth="680.0">
+        <columns>
+          <TableColumn fx:id="courseNoColumn" editable="false" prefWidth="99.0" text="Course Number" />
+          <TableColumn fx:id="courseNameColumn" editable="false" prefWidth="83.0" text="Course Name" />
+            <TableColumn fx:id="courseExamDate" editable="false" prefWidth="101.0" text="ExamDate" />
+            <TableColumn fx:id="courseSessionColmun" editable="false" prefWidth="118.0" text="Session" />
+            <TableColumn fx:id="courseSNoColumn" editable="false" prefWidth="116.0" text="Student Numebr" />
+            <TableColumn fx:id="removeColumn" editable="false" prefWidth="116.0" text="Remove" />
+        </columns>
+      </TableView>
+      <Button layoutX="321.0" layoutY="170.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>

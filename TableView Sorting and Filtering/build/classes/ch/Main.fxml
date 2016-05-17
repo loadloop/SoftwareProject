@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="582.0" prefWidth="743.0" style="-fx-background-color: wight;" stylesheets="@../styles/material-design-styles.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.MainController">
+   <children>
+      <AnchorPane fx:id="pane" layoutX="135.0" prefHeight="582.0" prefWidth="610.0" />
+      <AnchorPane fx:id="ac5" prefHeight="582.0" prefWidth="135.0" styleClass="navigation-drawer">
+         <children>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="582.0" prefWidth="135.0">
+               <children>
+                  <AnchorPane fx:id="an" onMouseClicked="#an" styleClass="item-selectable">
+                     <children>
+                        <ImageView pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/ic_folder_black_24dp_1x.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefWidth="135.0" text="My file" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="an2" onMouseClicked="#an2" styleClass="item-selectable">
+                     <children>
+                        <ImageView pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/ic_group_black_24dp_1x.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefWidth="135.0" text="Shared" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="an3" onMouseClicked="#an3" styleClass="item-selectable">
+                     <children>
+                        <ImageView onMouseClicked="#an3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/ic_star_black_24dp_1x.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Starred" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="an4" onMouseClicked="#an4" styleClass="item-selectable">
+                     <children>
+                        <ImageView pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/ic_access_time_black_24dp_1x.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Recent" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="an5" onMouseClicked="#an5" styleClass="item-selectable">
+                     <children>
+                        <ImageView pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/ic_access_time_black_24dp_1x.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Recent" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

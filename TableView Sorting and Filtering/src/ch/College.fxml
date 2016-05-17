@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="349.0" stylesheets="@../style/material-design-styles.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.CollegeController">
+   <children>
+      <TableView fx:id="college" layoutX="33.0" layoutY="51.0" prefHeight="208.0" prefWidth="317.0" AnchorPane.bottomAnchor="52.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+            <TableColumn fx:id="collegeNumberColmun" prefWidth="58.666656494140625" text="No." />
+          <TableColumn fx:id="collegeName" prefWidth="188.0" text="College Name" />
+          <TableColumn fx:id="noOfExamAday" prefWidth="118.0" />
+        </columns>
+      </TableView>
+      <Button layoutX="92.0" layoutY="227.0" mnemonicParsing="false" onAction="#ok" text="Button" />
+      <Button layoutX="214.0" layoutY="227.0" mnemonicParsing="false" onAction="#cancel" text="Button" />
+   </children>
+</AnchorPane>

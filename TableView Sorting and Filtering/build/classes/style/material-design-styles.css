@@ -1,0 +1,49 @@
+/* Table */
+.false {
+   -fx-background-color: red; 
+}
+.false:selected {
+   -fx-background-color: steelblue; 
+}
+.table-row-cell:selected .false {
+   -fx-background-color: steelblue; 
+}
+.hey{
+-fx-effect: dropshadow(three-pass-box, red, 10, 0, 0, 0);
+}
+
+
+.toggle{
+-fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+.toggle:hover{
+-fx-effect: dropshadow(three-pass-box, red, 10, 0, 0, 0);
+
+}
+.toggle:selected{
+-fx-background-color: green;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+.toggle:selected:hover{
+-fx-effect: dropshadow(three-pass-box, green, 10, 0, 0, 0);
+
+}
+/*
+.table-row-cell {
+   -fx-background-color: steelblue; 
+}
+.table-row-cell:selected {
+   -fx-background-color: steelblue; 
+}*/
+/* date */
+.date-cell:disabled{
+    -fx-background-color: #ffc0cb;
+}
+.table-column {
+  -fx-alignment: CENTER;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane stylesheets="@../style/material-design-styles.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="327.0" prefWidth="538.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.ReadFilesController">
+   <children>
+      <Button layoutX="445.0" layoutY="95.0" mnemonicParsing="false" onAction="#Browse_halls" text="Browse" />
+      <Button layoutX="445.0" layoutY="147.0" mnemonicParsing="false" onAction="#Browse_students" text="Browse" />
+      <Button layoutX="180.0" layoutY="245.0" mnemonicParsing="false" onAction="#Read_files" text="Read" />
+      <TextField fx:id="hall_path" layoutX="120.0" layoutY="95.0" prefHeight="25.0" prefWidth="303.0" />
+      <TextField fx:id="student_path" layoutX="120.0" layoutY="147.0" prefHeight="25.0" prefWidth="303.0" />
+      <Label layoutX="48.0" layoutY="99.0" text="Halls File" />
+      <Label layoutX="38.0" layoutY="151.0" text="Students File" />
+      <Button layoutX="263.0" layoutY="245.0" mnemonicParsing="false" onAction="#close" text="Continue with Old Data" />
+      <ProgressIndicator layoutX="251.0" layoutY="282.0" prefHeight="25.0" prefWidth="24.0" visible="false" />
+   </children>
+</AnchorPane>
